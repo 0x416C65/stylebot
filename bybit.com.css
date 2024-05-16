@@ -1,0 +1,23 @@
+/* OTHER */
+*:not(i){font-family:"Inter"}
+/* TMP */
+/* #root > main > div > div > div.margin-right-4 > aside,
+#root > el-config-provider > div > div.flex-1.flex-col.flex-col-flex-start.ovh > div.v-exchange-klineinfo
+{display:none} */
+/* SPOT */
+/* #__bybit_uniframe_header__, */
+#root > main > div > div > div.react-grid-layout > div:nth-child(1) > div > div.by-card__head.flex.v-center.f-12.draggable,
+#root > div.by-footer-derivatives__bg,
+#root > el-config-provider > div > div.flex-1.flex-col.flex-col-flex-start.ovh > div.flex-1.v-exchange-orders > div > div.order-list-header > div.order-list-tabs.font-500 > div.position-order-tab
+{display:none}
+/* PERPETUAL */
+#root > el-config-provider > div > div.hot-currency-symbol-container.flex-row.flex-row-space-between.bg,
+#klineContainer > div.v-exchange-kline.flex-1.ovh > div > div.chart-head.flex-row-space-between.flex-shrink-0,
+#sfe-header-placeholder,
+#guidance_anchor_position > div > div.by-card__head.flex.v-center.f-12.draggable > div > div.f-14.position__header--title--left.scrollbar-dark-none > span.tradeType,
+#guidance_anchor_order > div > div.by-card__body > div > div.by-switch.full.oc__group.oc-main__transparent-bg.by-switch--xx-large.by-switch--underline
+{display:none}
+body[data-layout=Exchange]
+{padding-top:0}
+#root > el-config-provider > div
+{padding-bottom:0}
